@@ -11,7 +11,7 @@ const KanalTedavı = () => {
           <Col xs={12}>
             <img
               width={350}
-              src={require("../../../images/homefoto/ortodonti.jpg")}
+              src={require("../../../images/homefoto/kanaaltedavı.jpg")}
               alt=""
             />
           </Col>

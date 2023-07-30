@@ -18,7 +18,7 @@ const Ortodontı = () => {
           <Col xs={12}>
             <img
               width={350}
-              src={require("../../../images/homefoto/kanaaltedavı.jpg")}
+              src={require("../../../images/homefoto/ortodonti.jpg")}
               alt=""
             />
           </Col>
