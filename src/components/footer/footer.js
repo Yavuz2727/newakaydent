@@ -8,7 +8,7 @@ const Footer = () => {
         {" "}
         <div className="footer">
           <div className="leftfooter">
-            <div className="logo">
+            <div className="logos">
               <img
                 src={require("../../images/logo/logotrans.png")}
                 alt="logo"
