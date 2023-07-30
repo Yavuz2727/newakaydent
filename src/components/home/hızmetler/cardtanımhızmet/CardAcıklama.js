@@ -1,21 +1,26 @@
 import React from "react";
 import "./CardAcıklama.scss";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
-import { type } from "@testing-library/user-event/dist/type";
+
 import { constants } from "../../../../constaınts";
+import { nameState } from "../../../../store/headername/headername";
 const CardAcıklama = () => {
   const id = useSelector((state) => state.id);
   const { CardAcıklama } = constants;
-  console.log(id);
-  const navigate = useNavigate();
+
+  const dispatch = useDispatch();
   return (
     <div className="cardacıklama">
       <div className="leftcardacıklama">
         <h3>{CardAcıklama[id.id - 1].name}</h3>
         <p>{CardAcıklama[id.id - 1].text}</p>
-        <Button onClick={() => navigate(`${CardAcıklama[id.id - 1].router}`)}>
+        <Button
+          as={Link}
+          to={`${CardAcıklama[id.id - 1].router}`}
+          onClick={() => dispatch(nameState(CardAcıklama[id.id - 1].name))}
+        >
           Detaylı Bilgi İçin{" "}
         </Button>
       </div>
