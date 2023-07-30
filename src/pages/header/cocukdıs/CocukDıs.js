@@ -34,7 +34,7 @@ const CocukDıs = () => {
         <Row className="mt-5 " style={{ textAlign: "center" }}>
           <Col xs={12}>
             <img
-              width={450}
+              width={350}
               src={require("../../../images/homefoto/hh4.jpg")}
               alt=""
             />
