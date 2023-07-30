@@ -1,0 +1,33 @@
+.carusel {
+  z-index: 5;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #003057;
+    opacity: 0.3;
+  }
+  h5,
+  p {
+    position: relative;
+    color: white;
+    z-index: 20;
+    font-weight: bold;
+    @media (max-width: 576px) {
+      font-size: 0.7rem;
+    }
+  }
+  button {
+    color: white !important;
+  }
+}
+.carousel-indicators [data-bs-target] {
+  background-color: white !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black !important;
+}

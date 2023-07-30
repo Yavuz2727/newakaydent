@@ -1,0 +1,34 @@
+.cardhizmet {
+  padding: 20px 0;
+  position: relative;
+  .bg-dark::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #1a3c58;
+    opacity: 0.7;
+  }
+  .bg-dark:hover {
+    opacity: 0.4;
+  }
+}
+@media (max-width: 576px) {
+  .cardrow {
+    gap: 10px;
+  }
+}
+.top-card-title {
+  position: relative;
+  .card-title {
+    font-weight: bold;
+    text-shadow: 2px 4px 5px #003057;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+}

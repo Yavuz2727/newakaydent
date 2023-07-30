@@ -1,0 +1,48 @@
+.homecarusel {
+  position: relative;
+  .top-carusel {
+    img {
+      width: 100%;
+      height: 280px;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      inset: 0;
+      background-color: #6b8185;
+      opacity: 0.5;
+    }
+  }
+  .topcaruseltext {
+    z-index: 15;
+    text-shadow: 6px 6px 5px white;
+    color: #003057;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    &:hover {
+      cursor: pointer;
+      color: white;
+      text-shadow: 6px 6px 5px #003057;
+    }
+  }
+  .heademintext {
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    text-shadow: 6px 6px 3px white;
+    color: #003057;
+    &:hover {
+      cursor: pointer;
+      color: white;
+      text-shadow: 6px 6px 5px #003057;
+    }
+  }
+}
