@@ -64,7 +64,7 @@ const Hakkımızda = () => {
           <Row>
             <Col xs={12} md={6}>
               <img
-                width={370}
+                width={383}
                 height={350}
                 src={require(`../../../images/homefoto/homevector/v${Vizyon[vizyon].number}.jpg`)}
                 alt=""
