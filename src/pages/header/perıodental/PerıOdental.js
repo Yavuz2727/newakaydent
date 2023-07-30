@@ -10,8 +10,8 @@ const PerıOdental = () => {
         <Row className="mt-5 " style={{ textAlign: "center" }}>
           <Col xs={12}>
             <img
-              width={500}
-              src={require("../../../images/homefoto/perodontalhastalık.jpg")}
+              width={350}
+              src={require("../../../images/homefoto/hh3.jpg")}
               alt=""
             />
           </Col>

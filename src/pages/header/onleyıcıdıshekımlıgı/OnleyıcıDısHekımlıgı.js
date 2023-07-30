@@ -10,7 +10,7 @@ const OnleyıcıDısHekımlıgı = () => {
         <Row className="mt-5 " style={{ textAlign: "center" }}>
           <Col xs={12}>
             <img
-              width={500}
+              width={350}
               src={require("../../../images/homefoto/önleyıcıdıshek.jpg")}
               alt=""
             />

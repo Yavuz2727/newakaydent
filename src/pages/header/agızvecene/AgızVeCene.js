@@ -10,8 +10,8 @@ const AgızVeCene = () => {
         <Row className="mt-5 " style={{ textAlign: "center" }}>
           <Col xs={12}>
             <img
-              width={500}
-              src={require("../../../images/homefoto/agızvecenecer.jpg")}
+              width={350}
+              src={require("../../../images/homefoto/hh1.jpg")}
               alt=""
             />
           </Col>
