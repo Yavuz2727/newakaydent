@@ -19,7 +19,7 @@ const DahaIyısı = () => {
       </div>
       <div className="rightdahaıyı">
         <img
-          width={200}
+          width={150}
           src={require("../../../images/homefoto/hh4.jpg")}
           alt=""
         />
